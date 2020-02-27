@@ -30,7 +30,7 @@ public class Registrar_cuentaActivity extends AppCompatActivity {
         etRegUserEmail = findViewById(R.id.etRegUserEmail);
         etPassword = findViewById(R.id.etPassword);
         etRegUserNombre = findViewById(R.id.etRegUserNombre);
-        getSupportActionBar().hide();
+
 
     }
 
