@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Sumplym</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hint_loginUser">Usuario</string>
+    <string name="txt_btnSignIn">Registrar</string>
+    <string name="txt_tvCuenta">Cuenta</string>
+    <string name="txt_tvNuevaCuenta">Nueva Cuenta</string>
+    <string name="toast_no_accede">Usuario no identificado</string>
+    <string name="toast_CreateUserSucefully">Cuenta creada</string>
+    <string name="hint_etRegUserNombre">Usuario</string>
+    <string name="hint_etRegCorreoNombre">Correro</string>
+    <string name="txt_btnRegistrar">Registrar</string>
+    <string name="REG_USUARIO" />
+    <string name="toast_verifData">Los datos deben ser rellenables</string>
+    <string name="txRegistar">Registrar Producto</string>
+    <string name="txModificar">Modificar Stock</string>
+    <string name="txBorrar">Borrar Stock</string>
+    <string name="txConsultar">Consultar Stock</string>
+    <string name="texBienbenido">Bienvenido:</string>
+    <string name="hint_et_nombre">Nombre Equipo</string>
+    <string name="hint_et_modeloE">Modelo Equipo</string>
+    <string name="hint_et_te">Tamaño Equipo</string>
+    <string name="hint_et_pe">Procesador Equipo</string>
+    <string name="limpia">Limpiar</string>
+    <string name="no_id">No existe  id</string>
+    <string name="no_conta">No existe usuario</string>
+    <string name="no_datos">no hay datos</string>
+    <string name="insertat_ok">datos guardados</string>
+    <string name="hint_et_id">Id</string>
+    <string name="hit_buscarM">Buscar</string>
+    <string name="hint_et_modelo">Modelo</string>
+    <string name="hint_et_Tamaño">Tamaño</string>
+    <string name="hint_et_procesaadro">Procesador</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="update_ok">Datos Cambiado</string>
+</resources>

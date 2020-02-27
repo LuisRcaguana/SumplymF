@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:padding="20dp"
+    tools:context=".RegistrarActivity">
+    <EditText
+        android:id="@+id/etNombreE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:hint="@string/hint_et_nombre"
+        />
+    <EditText
+        android:id="@+id/modeloE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etNombreE"
+        android:layout_marginTop="45dp"
+        android:hint="@string/hint_et_modeloE"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:id="@+id/tamañoE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/modeloE"
+        android:layout_marginTop="45dp"
+        android:hint="@string/hint_et_te"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:id="@+id/procesadorE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tamañoE"
+        android:layout_marginTop="45dp"
+        android:hint="@string/hint_et_pe"
+        android:inputType="textEmailAddress"/>
+
+    <Button
+        android:id="@+id/btnGuardarR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/procesadorE"
+        android:layout_marginTop="45dp"
+        android:text="@string/txRegistar"
+        android:onClick="GuardarR"
+        />
+
+    <Button
+        android:id="@+id/btnCancelarR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnGuardarR"
+        android:layout_marginTop="45dp"
+        android:text="@string/limpia"
+        android:onClick="LimpiarR"
+        />
+
+</RelativeLayout>

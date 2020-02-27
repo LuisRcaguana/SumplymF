@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "763577552165",
+    "firebase_url": "https://basesumpi.firebaseio.com",
+    "project_id": "basesumpi",
+    "storage_bucket": "basesumpi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763577552165:android:070d9d3a23ee1c09041ecc",
+        "android_client_info": {
+          "package_name": "com.example.sumplym"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "763577552165-6l79o854thhn1bucg4qj21f5ninunlil.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVRJM4bZ26HIozFCaF6wraRzU4alYLjXs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "763577552165-6l79o854thhn1bucg4qj21f5ninunlil.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
